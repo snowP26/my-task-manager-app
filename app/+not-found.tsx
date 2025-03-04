@@ -8,7 +8,7 @@ const responsiveFontSize = () => (20 * width) / 375;
 export default function NotFoundScreen() {
 return (
     <>
-        <Stack.Screen options={{ headerTitle: "Oops page not found!" }}/>
+        <Stack.Screen options={{ headerTitle: "Oops page not found!", headerLeft: () => <></>}}/>
         <View style={styles.container}>
             <Text style={[styles.text, { fontSize: responsiveFontSize() }]}>Page not found!</Text>
             <Link href="/" style={styles.button}>Go back to home</Link>

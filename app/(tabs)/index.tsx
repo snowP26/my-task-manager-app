@@ -9,7 +9,6 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={[styles.text, { fontSize: responsiveFontSize() }]}>Welcome to My Task Manager App</Text>
-      <Link href="/tasks" style={styles.button}>Go to Tasks</Link>
     </View>
   );
 }
