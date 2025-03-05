@@ -19,13 +19,13 @@ return (
 
 const styles = StyleSheet.create({
 container: {
-    backgroundColor: '#1D1D1D',
+    backgroundColor: '#171614',
     flex: 1,
     alignItems: "center",
 },
 
 text: {
-    color: 'yellow',
+    color: '#DEC1FF',
     fontWeight: 'bold', 
 }, 
 
